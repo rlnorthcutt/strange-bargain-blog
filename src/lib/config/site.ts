@@ -2,7 +2,7 @@ import type { SiteConfig } from '$lib/types/site'
 
 export const site: SiteConfig = {
   protocol: 'https://',
-  domain: import.meta.env.URARA_SITE_DOMAIN ?? 'strange-bargain-blog-9vytxj1nd-rlnorthcutt.vercel.app',
+  domain: import.meta.env.URARA_SITE_DOMAIN ?? 'strange-bargain-blog-rlnorthcutt.vercel.app',
   title: 'Strange Bargain',
   subtitle: 'Thoughts and musings about life',
   lang: 'en-US',
